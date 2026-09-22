@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+*.secret
+*.secrets
+secrets/
+credentials/
+
+# Certificates and private keys
+*.key
+*.pfx
+*.p12
+*.pem
+
+# PowerShell
+*.clixml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
