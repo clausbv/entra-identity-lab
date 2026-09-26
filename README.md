@@ -35,12 +35,12 @@ This project documents practical experience with:
 
 ## Labs
 
-| Lab                                            | Topic                                                                | Status      |
-| ---------------------------------------------- | -------------------------------------------------------------------- | ----------- |
-| [L00](labs/L00-tenant-baseline/README.md)      | Tenant baseline                                                      | Completed   |
-| [L01](labs/L01-user-group-lifecycle/README.md) | User and group lifecycle management                                  | Completed   |
-| [L02](labs/L02-application-oidc/README.md)     | Application registration, OIDC, and delegated Microsoft Graph access | Completed   |
-| [L03](labs/L03-saml-sso-assignment/README.md)  | SAML single sign-on and application assignment                       | In progress |
+| Lab                                            | Topic                                                                | Status    |
+| ---------------------------------------------- | -------------------------------------------------------------------- | --------- |
+| [L00](labs/L00-tenant-baseline/README.md)      | Tenant baseline                                                      | Completed |
+| [L01](labs/L01-user-group-lifecycle/README.md) | User and group lifecycle management                                  | Completed |
+| [L02](labs/L02-application-oidc/README.md)     | Application registration, OIDC, and delegated Microsoft Graph access | Completed |
+| [L03](labs/L03-saml-sso-assignment/README.md)  | SAML single sign-on and application assignment                       | Completed |
 
 ## Repository Structure
 
