@@ -33,15 +33,16 @@ This project documents practical experience with:
 
 ## Labs
 
-| Lab                                       | Topic                                    | Status    |
-| ----------------------------------------- | ---------------------------------------- | --------- |
-| [L00](labs/L00-tenant-baseline/README.md) | Tenant baseline and administrative setup | Completed |
-| L01                                       | User and group lifecycle management      | Planned   |
-| L02                                       | Roles and least-privilege administration | Planned   |
-| L03                                       | Authentication methods and MFA           | Planned   |
-| L04                                       | Enterprise applications and SSO          | Planned   |
-| L05                                       | Application registrations and OAuth/OIDC | Planned   |
-| L06                                       | Microsoft Graph automation               | Planned   |
+## Labs
+
+| Lab                                            | Topic                                                                | Status      |
+| ---------------------------------------------- | -------------------------------------------------------------------- | ----------- |
+| [L00](labs/L00-tenant-baseline/README.md)      | Tenant baseline                                                      | Completed   |
+| [L01](labs/L01-user-group-lifecycle/README.md) | User and group lifecycle management                                  | Completed   |
+| [L02](labs/L02-application-oidc/README.md)     | Application registration, OIDC, and delegated Microsoft Graph access | Completed   |
+| [L03](labs/L03-saml-sso-assignment/README.md)  | SAML single sign-on and application assignment                       | In progress |
+
+## Repository Structure
 
 ## Repository Structure
 
@@ -50,7 +51,13 @@ entra-identity-lab/
 ├── README.md
 ├── .gitignore
 └── labs/
-    └── L00-tenant-baseline/
-        ├── README.md
-        └── evidence/
+    ├── L00-tenant-baseline/
+    │   └── README.md
+    ├── L01-user-group-lifecycle/
+    │   └── README.md
+    ├── L02-application-oidc/
+    │   ├── README.md
+    │   └── src/
+    └── L03-saml-sso-assignment/
+        └── README.md
 ```
