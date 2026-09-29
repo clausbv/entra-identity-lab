@@ -26,10 +26,10 @@ This project documents practical experience with:
 | [L04](labs/L04%20%E2%80%94%20Authentication%20Methods%20and%20Account%20Recovery/README.md) | Authentication methods and account recovery                          | Completed |
 | [L05](labs/L05-dynamic-group-app-access/README.md)                                          | Dynamic group membership and application access                      | Completed |
 | [L06](labs/L06-conditional-access-report-only/README.md)                                    | Conditional Access MFA pilot in report-only mode                     | Completed |
+| [L07](labs/L07-privileged-identity-management/README.md) | Privileged Identity Management and just-in-time role activation      | Completed |
 
 ## Repository Structure
 
-```text
 entra-identity-lab/
 ├── README.md
 ├── .gitignore
@@ -47,6 +47,7 @@ entra-identity-lab/
     │   └── README.md
     ├── L05-dynamic-group-app-access/
     │   └── README.md
-    └── L06-conditional-access-report-only/
+    ├── L06-conditional-access-report-only/
+    │   └── README.md
+    └── L07-privileged-identity-management/
         └── README.md
-```
