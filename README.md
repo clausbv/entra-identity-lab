@@ -17,34 +17,15 @@ This project documents practical experience with:
 - Identity security testing and troubleshooting
 - Automation with PowerShell and Python
 
-## Lab Environment
-
-| Component                | Configuration                |
-| ------------------------ | ---------------------------- |
-| Identity platform        | Microsoft Entra ID           |
-| Entra license            | Microsoft Entra ID Free      |
-| Azure subscription       | Azure free trial             |
-| Administration interface | Microsoft Entra admin center |
-| Command-line interface   | PowerShell 7                 |
-| API and automation       | Microsoft Graph              |
-| Source control           | Git and GitHub               |
-
-> This is an educational lab environment. Tenant identifiers, credentials, tokens, personal information, and other sensitive data are excluded from this repository.
-
-## Labs
-
-## Labs
-
 | Lab                                                                                         | Topic                                                                | Status    |
-| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --------- | --- | ----------- |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --------- |
 | [L00](labs/L00-tenant-baseline/README.md)                                                   | Tenant baseline                                                      | Completed |
 | [L01](labs/L01-user-group-lifecycle/README.md)                                              | User and group lifecycle management                                  | Completed |
 | [L02](labs/L02-application-oidc/README.md)                                                  | Application registration, OIDC, and delegated Microsoft Graph access | Completed |
 | [L03](labs/L03-saml-sso-assignment/README.md)                                               | SAML single sign-on and application assignment                       | Completed |
-| [L04](labs/L04%20%E2%80%94%20Authentication%20Methods%20and%20Account%20Recovery/README.md) | Authentication methods and account recovery                          |
-| [L05](labs/L05-dynamic-group-app-access/README.md)                                          | Dynamic group membership and application access                      | Completed |     | In progress |
-
-## Repository Structure
+| [L04](labs/L04%20%E2%80%94%20Authentication%20Methods%20and%20Account%20Recovery/README.md) | Authentication methods and account recovery                          | Completed |
+| [L05](labs/L05-dynamic-group-app-access/README.md)                                          | Dynamic group membership and application access                      | Completed |
+| [L06](labs/L06-conditional-access-report-only/README.md)                                    | Conditional Access MFA pilot in report-only mode                     | Completed |
 
 ## Repository Structure
 
@@ -64,6 +45,8 @@ entra-identity-lab/
     │   └── README.md
     ├── L04 — Authentication Methods and Account Recovery/
     │   └── README.md
-    └── L05-dynamic-group-app-access/
+    ├── L05-dynamic-group-app-access/
+    │   └── README.md
+    └── L06-conditional-access-report-only/
         └── README.md
 ```
