@@ -28,6 +28,7 @@ This project documents practical experience with:
 | [L06](labs/L06-conditional-access-report-only/README.md)                                    | Conditional Access MFA pilot in report-only mode                      | Completed |
 | [L07](labs/L07-privileged-identity-management/README.md)                                    | Privileged Identity Management and just-in-time role activation       | Completed |
 | [L08](labs/L08-conditional-access-session-controls/README.md)                               | Conditional Access browser sign-in frequency (Report-only validation) | Completed |
+| [L09](labs/L09-pim-approval-temporary-role/README.md)                                       | PIM approval and temporary Helpdesk Administrator access              | Completed |
 
 ## Repository Structure
 
