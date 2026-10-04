@@ -18,7 +18,7 @@ This project documents practical experience with:
 - Automation with PowerShell and Python
 
 | Lab                                                                                         | Topic                                                                 | Status    |
-| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------- |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------- | --- | --------- |
 | [L00](labs/L00-tenant-baseline/README.md)                                                   | Tenant baseline                                                       | Completed |
 | [L01](labs/L01-user-group-lifecycle/README.md)                                              | User and group lifecycle management                                   | Completed |
 | [L02](labs/L02-application-oidc/README.md)                                                  | Application registration, OIDC, and delegated Microsoft Graph access  | Completed |
@@ -29,6 +29,8 @@ This project documents practical experience with:
 | [L07](labs/L07-privileged-identity-management/README.md)                                    | Privileged Identity Management and just-in-time role activation       | Completed |
 | [L08](labs/L08-conditional-access-session-controls/README.md)                               | Conditional Access browser sign-in frequency (Report-only validation) | Completed |
 | [L09](labs/L09-pim-approval-temporary-role/README.md)                                       | PIM approval and temporary Helpdesk Administrator access              | Completed |
+| [L10](<labs/L10 — Azure Reader through PIM/README.md>)                                      | Azure RBAC — temporary Reader access through PIM                      | Completed |     | Completed |
+| [L11](labs/L11-identity-protection/README.md)                                               | Identity Protection and risk-based Conditional Access                 | Completed |
 
 ## Repository Structure
 
@@ -53,5 +55,11 @@ entra-identity-lab/
 │ └── README.md
 ├── L07-privileged-identity-management/
 │ └── README.md
-└── L08-conditional-access-session-controls/
+├── L08-conditional-access-session-controls/
+│ └── README.md
+├── L09-pim-approval-temporary-role/
+│ └── README.md
+├── L10-azure-rbac-pim/
+│ └── README.md
+└── L11-identity-protection/
 └── README.md
