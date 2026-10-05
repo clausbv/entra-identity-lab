@@ -31,6 +31,7 @@ This project documents practical experience with:
 | [L09](labs/L09-pim-approval-temporary-role/README.md)                                       | PIM approval and temporary Helpdesk Administrator access              | Completed |
 | [L10](<labs/L10 — Azure Reader through PIM/README.md>)                                      | Azure RBAC — temporary Reader access through PIM                      | Completed |     | Completed |
 | [L11](labs/L11-identity-protection/README.md)                                               | Identity Protection and risk-based Conditional Access                 | Completed |
+| [L12](labs/L12-access-reviews/README.md)                                                    | Access Reviews: group membership decisions and manual application     | Completed |
 
 ## Repository Structure
 
@@ -62,4 +63,6 @@ entra-identity-lab/
 ├── L10-azure-rbac-pim/
 │ └── README.md
 └── L11-identity-protection/
+└── README.md
+└── L12-access-reviews/
 └── README.md
