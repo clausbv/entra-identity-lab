@@ -33,6 +33,7 @@ This project documents practical experience with:
 | [L11](labs/L11-identity-protection/README.md)                                               | Identity Protection and risk-based Conditional Access                 | Completed |
 | [L12](labs/L12-access-reviews/README.md)                                                    | Access Reviews: group membership decisions and manual application     | Completed |
 | [L14](labs/L14-self-service-password-reset/README.md)                                       | Self-service password reset, email verification, and audit logs       | Completed |
+| [L15](labs/L15-temporary-access-pass/README.md)                                             | Temporary Access Pass authentication and passkey registration         | Completed |     |
 
 ## Repository Structure
 
@@ -68,4 +69,6 @@ entra-identity-lab/
 └── L12-access-reviews/
 └── README.md
 └── L14-self-service-password-reset/
+└── README.md
+└── L15-temporary-access-pass/
 └── README.md
