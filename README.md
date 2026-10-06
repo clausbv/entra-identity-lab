@@ -32,6 +32,7 @@ This project documents practical experience with:
 | [L10](<labs/L10 — Azure Reader through PIM/README.md>)                                      | Azure RBAC — temporary Reader access through PIM                      | Completed |     | Completed |
 | [L11](labs/L11-identity-protection/README.md)                                               | Identity Protection and risk-based Conditional Access                 | Completed |
 | [L12](labs/L12-access-reviews/README.md)                                                    | Access Reviews: group membership decisions and manual application     | Completed |
+| [L14](labs/L14-self-service-password-reset/README.md)                                       | Self-service password reset, email verification, and audit logs       | Completed |
 
 ## Repository Structure
 
@@ -65,4 +66,6 @@ entra-identity-lab/
 └── L11-identity-protection/
 └── README.md
 └── L12-access-reviews/
+└── README.md
+└── L14-self-service-password-reset/
 └── README.md
