@@ -17,23 +17,24 @@ This project documents practical experience with:
 - Identity security testing and troubleshooting
 - Automation with PowerShell and Python
 
-| Lab                                                                                         | Topic                                                                 | Status    |
-| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------- | --- | --------- |
-| [L00](labs/L00-tenant-baseline/README.md)                                                   | Tenant baseline                                                       | Completed |
-| [L01](labs/L01-user-group-lifecycle/README.md)                                              | User and group lifecycle management                                   | Completed |
-| [L02](labs/L02-application-oidc/README.md)                                                  | Application registration, OIDC, and delegated Microsoft Graph access  | Completed |
-| [L03](labs/L03-saml-sso-assignment/README.md)                                               | SAML single sign-on and application assignment                        | Completed |
-| [L04](labs/L04%20%E2%80%94%20Authentication%20Methods%20and%20Account%20Recovery/README.md) | Authentication methods and account recovery                           | Completed |
-| [L05](labs/L05-dynamic-group-app-access/README.md)                                          | Dynamic group membership and application access                       | Completed |
-| [L06](labs/L06-conditional-access-report-only/README.md)                                    | Conditional Access MFA pilot in report-only mode                      | Completed |
-| [L07](labs/L07-privileged-identity-management/README.md)                                    | Privileged Identity Management and just-in-time role activation       | Completed |
-| [L08](labs/L08-conditional-access-session-controls/README.md)                               | Conditional Access browser sign-in frequency (Report-only validation) | Completed |
-| [L09](labs/L09-pim-approval-temporary-role/README.md)                                       | PIM approval and temporary Helpdesk Administrator access              | Completed |
-| [L10](<labs/L10 — Azure Reader through PIM/README.md>)                                      | Azure RBAC — temporary Reader access through PIM                      | Completed |     | Completed |
-| [L11](labs/L11-identity-protection/README.md)                                               | Identity Protection and risk-based Conditional Access                 | Completed |
-| [L12](labs/L12-access-reviews/README.md)                                                    | Access Reviews: group membership decisions and manual application     | Completed |
-| [L14](labs/L14-self-service-password-reset/README.md)                                       | Self-service password reset, email verification, and audit logs       | Completed |
-| [L15](labs/L15-temporary-access-pass/README.md)                                             | Temporary Access Pass authentication and passkey registration         | Completed |     |
+| Lab                                                                                         | Topic                                                                       | Status    |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------- | --- | --------- |
+| [L00](labs/L00-tenant-baseline/README.md)                                                   | Tenant baseline                                                             | Completed |
+| [L01](labs/L01-user-group-lifecycle/README.md)                                              | User and group lifecycle management                                         | Completed |
+| [L02](labs/L02-application-oidc/README.md)                                                  | Application registration, OIDC, and delegated Microsoft Graph access        | Completed |
+| [L03](labs/L03-saml-sso-assignment/README.md)                                               | SAML single sign-on and application assignment                              | Completed |
+| [L04](labs/L04%20%E2%80%94%20Authentication%20Methods%20and%20Account%20Recovery/README.md) | Authentication methods and account recovery                                 | Completed |
+| [L05](labs/L05-dynamic-group-app-access/README.md)                                          | Dynamic group membership and application access                             | Completed |
+| [L06](labs/L06-conditional-access-report-only/README.md)                                    | Conditional Access MFA pilot in report-only mode                            | Completed |
+| [L07](labs/L07-privileged-identity-management/README.md)                                    | Privileged Identity Management and just-in-time role activation             | Completed |
+| [L08](labs/L08-conditional-access-session-controls/README.md)                               | Conditional Access browser sign-in frequency (Report-only validation)       | Completed |
+| [L09](labs/L09-pim-approval-temporary-role/README.md)                                       | PIM approval and temporary Helpdesk Administrator access                    | Completed |
+| [L10](<labs/L10 — Azure Reader through PIM/README.md>)                                      | Azure RBAC — temporary Reader access through PIM                            | Completed |     | Completed |
+| [L11](labs/L11-identity-protection/README.md)                                               | Identity Protection and risk-based Conditional Access                       | Completed |
+| [L12](labs/L12-access-reviews/README.md)                                                    | Access Reviews: group membership decisions and manual application           | Completed |
+| [L13](labs/L13-access-packages/README.md)                                                   | Entitlement Management: access requests, approval, and automatic expiration | Completed |
+| [L14](labs/L14-self-service-password-reset/README.md)                                       | Self-service password reset, email verification, and audit logs             | Completed |
+| [L15](labs/L15-temporary-access-pass/README.md)                                             | Temporary Access Pass authentication and passkey registration               | Completed |     |
 
 ## Repository Structure
 
@@ -65,10 +66,12 @@ entra-identity-lab/
 ├── L10-azure-rbac-pim/
 │ └── README.md
 └── L11-identity-protection/
-└── README.md
+| └── README.md
 └── L12-access-reviews/
-└── README.md
+| └── README.md
+├── L13-access-packages/
+│ └── README.md
 └── L14-self-service-password-reset/
-└── README.md
+| └── README.md
 └── L15-temporary-access-pass/
 └── README.md
